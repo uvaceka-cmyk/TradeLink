@@ -15,7 +15,7 @@ export default async function ResetPassword({ searchParams }: { searchParams: Pa
     return (
       <>
         <header className="site-header">
-          <Link href="/" className="brand"><span>Zak</span><strong>ly</strong></Link>
+          <Link href="/" className="brand"><span>Trade</span><strong>Link</strong></Link>
         </header>
         <main className="login-page">
           <div>
@@ -32,13 +32,13 @@ export default async function ResetPassword({ searchParams }: { searchParams: Pa
   return (
     <>
       <header className="site-header">
-        <Link href="/" className="brand"><span>Zak</span><strong>ly</strong></Link>
+        <Link href="/" className="brand"><span>Trade</span><strong>Link</strong></Link>
       </header>
       <main className="login-page">
         <div>
           <span className="eyebrow">OBNOVA HESLA</span>
           <h1>Nastavte si nové heslo</h1>
-          <p>Zadejte nové heslo ke svému účtu Zakly.</p>
+          <p>Zadejte nové heslo ke svému účtu TradeLink.</p>
           {error && <p className="form-error">{error}</p>}
           <form className="supplier-register" method="post" action="/api/auth/reset-password">
             <input type="hidden" name="token" value={token} />
