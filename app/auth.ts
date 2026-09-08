@@ -112,10 +112,10 @@ export async function sendPasswordResetEmail(email: string, resetUrl: string): P
     method: "POST",
     headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
     body: JSON.stringify({
-      from: "Zakly <onboarding@resend.dev>",
+      from: "TradeLink <onboarding@resend.dev>",
       to: email,
-      subject: "Obnova hesla – Zakly",
-      html: `<p>Dobrý den,</p><p>někdo (doufejme vy) požádal o obnovu hesla k účtu Zakly. Klikněte na odkaz níže a nastavte si nové heslo. Odkaz platí 1 hodinu.</p><p><a href="${resetUrl}">${resetUrl}</a></p><p>Pokud jste o obnovu hesla nežádali, tento e-mail jednoduše ignorujte — heslo zůstane beze změny.</p>`,
+      subject: "Obnova hesla – TradeLink",
+      html: `<p>Dobrý den,</p><p>někdo (doufejme vy) požádal o obnovu hesla k účtu TradeLink. Klikněte na odkaz níže a nastavte si nové heslo. Odkaz platí 1 hodinu.</p><p><a href="${resetUrl}">${resetUrl}</a></p><p>Pokud jste o obnovu hesla nežádali, tento e-mail jednoduše ignorujte — heslo zůstane beze změny.</p>`,
     }),
   });
 }
