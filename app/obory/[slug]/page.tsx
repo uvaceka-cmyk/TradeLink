@@ -35,7 +35,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
   return (
     <main className="simple">
-      <Link href="/" className="brand"><span>Zak</span><strong>ly</strong></Link>
+      <Link href="/" className="brand"><span>Trade</span><strong>Link</strong></Link>
       <p className="eyebrow">OBOR</p>
       <h1>{c[0]}</h1>
       <p>{c[1]}</p>
