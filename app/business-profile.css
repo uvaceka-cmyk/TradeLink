@@ -1,6 +1,0 @@
-.rich-profile{max-width:1120px}
-.rich-summary>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
-.rich-summary>div span{padding:11px;background:var(--surface);border:1px solid var(--border);border-radius:9px;line-height:1.45;color:var(--text-dim)}
-.dashboard-intro .account-actions{display:flex;gap:10px;flex-wrap:wrap}
-.supplier-profile-form input[type=url]{padding:14px;border:1px solid var(--border);border-radius:10px;background:var(--surface-2);color:var(--text);font:inherit}
-@media(max-width:700px){.rich-summary>div{grid-template-columns:1fr}.dashboard-intro .account-actions{width:100%}.dashboard-intro .account-actions>*{flex:1}}

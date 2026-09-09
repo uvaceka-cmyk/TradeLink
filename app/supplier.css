@@ -1,6 +1,0 @@
-.supplier-groups{max-width:1160px;margin:55px auto 95px;padding:0 22px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.supplier-groups button{display:flex;justify-content:space-between;text-align:left;border:1px solid var(--border);background:var(--surface-2);border-radius:11px;padding:16px;cursor:pointer;font-weight:600;color:var(--text)}
-.supplier-groups button.active{background:var(--amber-wash);border-color:var(--amber);color:var(--amber)}
-.supplier-groups button span{color:var(--text-dim)}
-@media(max-width:950px){.supplier-groups{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.supplier-groups{grid-template-columns:1fr;margin-bottom:70px}}
